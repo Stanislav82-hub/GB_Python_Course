@@ -7,7 +7,7 @@ res = {}
 
 for i in stroka:
     if i in res:
-        print(f'{i}_{res[i]}', end=', ')
+        print(f'{i}_{res[i]}', end=' ')
     else:
         print(i, end=' ')    
         
